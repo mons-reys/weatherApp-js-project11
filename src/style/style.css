@@ -1,0 +1,46 @@
+.container {
+    width: 300px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .change-location label{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .change-location input{
+    border: none;
+    width: 270px;
+    margin: 5px 15px;
+}
+
+.container .card{
+    width: 100%;
+    
+}
+
+.container .card img{
+    max-width: 300px;
+    max-height: 450px;
+    
+}
+
+.container .card .icon{
+    height: 50px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.container .card .details h5{
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 1em;
+}
