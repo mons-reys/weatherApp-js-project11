@@ -1,46 +1,76 @@
-.container {
+.container {   
     width: 300px;
-    height: 500px;
+    height: 600px;
     margin: 50px auto;
-    background-color: #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.container h1{
+.container .head{
     text-align: center;
-}
-
-.container .change-location label{
-    text-align: center;
-    font-weight: bold;
-}
-
-.container .change-location input{
-    border: none;
-    width: 270px;
-    margin: 5px 15px;
+    margin-bottom: 0px;
 }
 
 .container .card{
-    width: 100%;
+    display: none;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    margin: 0px auto 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .head h1{
+    text-align: center;
+    color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .head .change-location label{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
     
 }
 
-.container .card img{
-    max-width: 300px;
-    max-height: 450px;
-    
+.container .head .change-location input{
+    border:1px solid lightblue;
+    padding: 7px;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.container .card .time{
+    position: absolute;
+    width: 400px;
+    height: 300px;
 }
 
 .container .card .icon{
     height: 50px;
     width: 100px;
-    border: 1px solid red;
+    position: absolute;
+    left: 50%;
+    bottom: 170px;
+    margin-left: -50px;
+    border-radius: 100%;
+    background-color: #ddd;
+    
 }
 
 .container .card .details h5{
     margin: 10px 0px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2em;  
+}
+
+.container .card .details{
+    position: absolute;
+    bottom: 20px;
+    margin: 10px;
+}
+
+.container .time{
+    position: absolute;
+    max-width: 300px;
+    height: 50%;
 }
